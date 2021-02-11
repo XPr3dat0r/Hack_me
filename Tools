@@ -1,0 +1,375 @@
+Security Tool List
+
+
+├───AD
+│   ├───ACLPwn
+│   ├───ACL_PWN
+│   ├───ADAPE
+│   ├───ADAudit
+│   ├───ADCollector
+│   ├───ADpwn
+│   ├───ADRecon
+│   ├───ADReconPowershell
+│   ├───AD_DomainSwevices_Script
+│   ├───AD_LDAP_Enum
+│   ├───AttackCheatSheet
+│   ├───Auditscript
+│   ├───Awesomeness
+│   ├───Bloodhound
+│   ├───BloodHoundPython
+│   ├───CrackMapExec
+│   ├───DomainEnumWithJavascript
+│   ├───DSInternals
+│   ├───DumpDNS
+│   ├───GetVulnerableGPO
+│   ├───Grouper
+│   ├───InterestingRestore
+│   ├───JoinLinuxToAD
+│   ├───LDAPDomainDump
+│   ├───LDAPper
+│   ├───LDAP_Search
+│   ├───ListDomains
+│   ├───LogonHistory
+│   ├───PrivEsc
+│   ├───PythonEnumerateUsers
+│   ├───QueryClearTextLDAPBinds
+│   ├───SharpAdidnsdump
+│   ├───SharpGPOAbuse
+│   ├───SharpHound
+│   └───WinLDAPSearch
+├───ARP
+│   ├───EavesARP
+│   └───SwissLogger
+├───AtomicRedTeam
+├───Audit
+│   └───Seatbelt
+├───AutorunsToJson
+├───Autosploit
+├───A_CsharpSelfMorphing
+├───Bandicam
+├───Bash
+├───BDFProxy
+├───BeyondCompare
+├───BinaryDiffingTools
+│   ├───BinDiff
+│   ├───DarunGrim4
+│   └───Diaphora
+├───BruteForce
+│   ├───Blazy
+│   ├───DomainPasswordSpray
+│   ├───Openssl-bruteforce
+│   └───THC-hydra-Windows
+├───BufferOverflow
+│   └───EggHunter
+├───Burp
+│   ├───ContentDiscovery
+│   └───IpRotate
+├───Bypass
+│   ├───AMSI
+│   │   ├───AmsiScanBypass
+│   │   ├───Another
+│   │   ├───GadgetToJscript
+│   │   ├───MattAmsi
+│   │   └───PSAMSI
+│   ├───AppLocker
+│   │   └───PowerAL
+│   ├───AppWhiteListing
+│   │   └───CscriptShell
+│   ├───ASLR_DEP
+│   │   └───PESecinfo
+│   ├───AutoRunsDetection
+│   ├───AV
+│   │   ├───Arno0x
+│   │   ├───AswCrypter
+│   │   ├───AVET
+│   │   ├───CactusTorch
+│   │   ├───GreatSCT
+│   │   ├───HerculesPayloadGenerator
+│   │   ├───InceptionFramework
+│   │   ├───KmzExample
+│   │   ├───MsVenonCustomShellcodr
+│   │   ├───ObfuscateCactusTorch
+│   │   ├───OwaspZSC
+│   │   ├───PayloadSplitting
+│   │   ├───PyCloak
+│   │   ├───ShellCodeWrapper
+│   │   ├───Shellter
+│   │   ├───SystemCallsFromVisuslStudio
+│   │   ├───TikiTorch
+│   │   ├───VeilEvasion
+│   │   └───WithMSBuildAndShellCode
+│   ├───CmdRestriction
+│   ├───COM
+│   ├───ConstrainedLanguageMode
+│   │   └───PSBypassCLM
+│   ├───DownloadAndExwcuteIdeas
+│   ├───EDR
+│   │   ├───WithINF
+│   │   └───ZombieAnt
+│   ├───Firewall
+│   │   └───Firefox_Tunnell
+│   ├───Logs
+│   │   └───Log-killer
+│   ├───MemoryScanning
+│   │   └───Gargoyles
+│   ├───MoveFilesFreelyIdea
+│   ├───NAC
+│   │   └───DelosCloak
+│   ├───Proxy
+│   │   ├───GimmeTheFile
+│   │   └───Reqrypt
+│   ├───Sysmon
+│   ├───UAC
+│   │   ├───ALPC-BypassUAC
+│   │   ├───CSharpPlaintext
+│   │   ├───PythonUac
+│   │   ├───SilentCleanup
+│   │   ├───UAC-Bypass
+│   │   ├───UACMe
+│   │   ├───UAC_bypass_windows_store
+│   │   └───WithFolderTrickery
+│   ├───WAF
+│   │   ├───DNSHistoryWAFBypass
+│   │   └───WhatWAF
+│   └───WindowsDefender
+│       └───Disable
+├───C2
+│   ├───BindShellBypassHostFirewallwithSMB
+│   ├───ChaShell
+│   ├───CobaltStrike
+│   ├───Covenant
+│   ├───DDoor
+│   ├───Diagon
+│   ├───DnsCat2
+│   ├───DnsShell
+│   ├───DockerDBC2
+│   ├───DockerDNSCat
+│   ├───DOHC2
+│   ├───dropboxC2_DBC2
+│   ├───External_c2_framework
+│   ├───FudgeC2
+│   ├───GCat
+│   ├───Gorsh
+│   ├───HRShell_httpShell
+│   ├───ICMPSH
+│   ├───ICMPTunnel
+│   ├───ICMP_Tunnel_Python
+│   ├───Invoke-PipeShell
+│   ├───MacSwiftShell
+│   ├───Merlin
+│   ├───Nuages
+│   ├───OneLogicalMyth_Shell
+│   ├───Ping-Pwn
+│   ├───PoshC2
+│   ├───PowerCat
+│   ├───PowerHub
+│   ├───PowershellExample
+│   ├───Prismatica
+│   ├───Pupy
+│   ├───RedPeanut
+│   ├───ReUseExistingConnectionOneWayStager
+│   ├───ReverseShellGen
+│   ├───ReverseTCPEncrptedPowershell
+│   ├───RSH
+│   ├───SharpSocks
+│   ├───SilentTrinity
+│   ├───Slackor
+│   ├───Throwback
+│   ├───ThunderShell
+│   ├───TinkerShell
+│   ├───Tiny-SHell
+│   ├───TrevorC2
+│   ├───Tunna
+│   ├───Udp2Raw
+│   ├───UndetectableCSharpShell
+│   ├───Websocket-Smuggle
+│   ├───WebSocketC2
+│   ├───WheresMyImplant
+│   └───WinSpy
+├───Calculator
+├───Cars
+│   ├───CANalyzator
+│   └───CanZator
+├───Certs
+│   ├───CarbonCopy
+│   ├───CertCheck
+│   ├───CertExp
+│   └───MkCert
+├───Chrome
+├───CIRCL_AIL_Framework
+├───Cisco
+│   └───CCat
+lippy
+├───Cloud
+│   ├───AWS
+│   │   ├───Barq
+│   │   ├───BucketFinder
+│   │   ├───MasS3
+│   │   ├───MetaDataService
+│   │   ├───Pacu
+│   │   ├───PowershelleryS3Finder
+│   │   ├───s3Monster
+│   │   ├───S3Scanner
+│   │   └───TakeFullControl
+│   ├───Azure
+│   │   └───Microburst
+│   ├───CloudBunny
+│   └───Google
+│       └───BruteBucket
+├───CloudFlare
+│   └───CloudUnflare
+├───CMS
+│   ├───CMSeek
+│   ├───CMSMap
+│   ├───JenikinsPillage
+│   ├───malicious-wordpress-plugin
+│   └───VulnX
+├───CobaltStrike
+│   └───SharpCompile
+├───CodeInjection
+│   ├───AtomBombing
+│   ├───Cave_miner
+│   ├───DNCI - Dot Net Code Injector
+│   ├───Gargoyle
+│   ├───GhostHook
+│   └───PROPagate
+├───ComHijacking
+│   ├───Enigma0x3_MessageBox
+│   │   └───MiscPowershell_getTasks
+│   ├───OleView
+│   ├───OleViewDotNet
+│   └───PS1Jacker
+├───CommandoVM
+│   └───MetasploitWindowsInstall
+├───Containers
+│   └───Trivy
+├───Conversion
+│   ├───Bin2Hex
+│   ├───DLL_to_exe
+│   ├───LibPeConv
+│   ├───PE_to_Shellcode
+│   └───shellconv
+├───CradleTest
+│   ├───BLueCradleTest
+│   └───CradleTest
+├───CredentialDumping
+│   ├───ADStuff
+│   ├───AndrewSpecial
+│   ├───AsRepRoast
+│   ├───ATPMinidump
+│   ├───AzureDumpDomainHashes
+│   ├───BadODF
+│   ├───BadPdf
+│   ├───CaptureEdgeAndIECreds
+│   ├───CaptureHashesWithURLFile
+│   ├───CheckLocalAdminHash
+│   ├───ChromePasswords
+│   ├───CloudCopy_DumpAWSDomainHashes
+│   ├───CMinidump
+│   ├───CompileFromBatch
+│   ├───Comsvcs
+│   ├───CookieMonster
+│   ├───Copy-VSS
+│   ├───Crackmapexec
+│   ├───CreateMiniDump
+│   ├───CreateMiniDumpCPP
+│   ├───Cred-Ninja
+│   ├───CredCatcher
+│   ├───CredentialPhisher
+│   │   └───Invoke-CredentialPhisher-master
+│   ├───CredentialsFileView
+│   ├───CredKing
+│   ├───CSharpClipboardWatcher
+│   ├───CSharpMimikatz
+│   │   └───Subtee
+│   ├───CsharpMinidump
+│   ├───CSharpPowershellCipboardWatcher
+│   ├───DCOM DCERPC Local NTLM Reflection Elevation of Privilege
+│   ├───DetectPasswordViaNTLMinFlow
+│   ├───DomainPasswordSpray
+│   ├───DSInternals
+│   ├───Dumpert
+│   ├───EFSFiles
+│   ├───EternalRelax
+│   ├───Evil-SsDp
+│   ├───FGDump
+│   ├───FindRiskySPNs
+│   ├───Get-PasswordFile
+│   ├───GetCurrentUsersPassword
+│   ├───GetUserSPNs
+│   ├───GhostPotato
+│   ├───GoldenTicket
+│   ├───GrabDump
+│   ├───Impacket
+│   ├───ImpacketStandAloneWindowExes
+│   │   └───impacketWindowsExes
+│   ├───ImpacketStaticBinaries
+│   ├───ImpDump
+│   ├───InternalMonologue
+│   ├───InternalMonologueAttack
+│   ├───Inveigh
+│   ├───InveighZero
+│   ├───Invoke-CredentialPhish
+│   │   └───PoshWinRT
+│   ├───Invoke-DCSync
+│   ├───Invoke-TokenManipulation
+│   ├───Invoke-WCMDump
+│   ├───InvokeKerberoastHarmJoy
+│   ├───InvokePasswordAudit
+│   ├───InvokePasswordPrompt
+│   ├───JenkinsDecrypt
+│   ├───KeeThief
+│   ├───Kekeo
+│   ├───KerberoastingFromSetupToCracking
+│   ├───KerberoastNidem
+│   ├───KrbRelayx
+│   ├───LaZagne
+│   ├───LDAPSearch
+│   ├───LSASS
+│   ├───MailPasswordView
+│   ├───MakeMeEnterpriseAdmin
+│   ├───MicrosoftOffice NTLMHashesviaFrameset
+│   ├───Mimikatz
+│   │   ├───AnotherMimiKatzObfuscation
+│   │   ├───DCShadow
+│   │   ├───GoldenTicket
+│   │   ├───ImpersonatingOfficeUsers
+│   │   ├───Invoke_Mimi
+│   │   ├───Latest_20190705
+│   │   ├───mimikatz-master
+│   │   ├───MimikatzDefense
+│   │   ├───Mimikatz_obfuscator
+│   │   ├───MorphedMimiKatzFromMetame
+│   │   ├───NovelJSMimikatzLoader
+│   │   ├───ObfuscationTechniques
+│   │   ├───PowershellDetectSkeletonKey
+│   │   ├───ResetKRBTGT_password_for_goldenTicketMitigation
+│   │   ├───Scripts
+│   │   │   └───ObfuscateMimikatz
+│   │   ├───UncoverDCShadow
+│   │   └───Update_AUG17_2019
+│   ├───MimikatzFromWebShell
+│   ├───MimikatzPowershell
+│   │   └───Scripts
+│   │       └───ObfuscateMimikatz
+│   ├───Mimikittenz
+│   ├───MimiPenguin
+│   ├───Mitm6
+│   ├───MS17-10_Scanner
+│   ├───MyKatz
+│   ├───MyPresentation_SharpCatUsingHex
+│   ├───Net-creds
+│   ├───NetKatz
+│   ├───NetNTLMtoSilverTicket
+│   ├───NetRipper
+│   ├───NetworkMiner
+│   ├───New folder
+│   ├───Nishang
+│   ├───NTDSDumpEx
+│   ├───NTDSExtract
+│   ├───NTLMInjector_ChangePasswordWithHASH
+│   ├───NtlmRelayToEWS
+│   ├───NTLM_FromRDPFiles
+│   ├───Out-MiniDump
+│   ├───Outlook
+│
